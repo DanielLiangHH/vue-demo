@@ -2,7 +2,7 @@
 	<div>
 		<h3>新闻页</h3>
 		<ul>
-			<li v-for='(item,index) in news'>
+			<li v-for='(item,index) in news' :key='index'>
 				{{item}}
 			</li>
 		</ul>
